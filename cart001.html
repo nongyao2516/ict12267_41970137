@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ตะกร้าสินค้า</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+  <div class="card shadow-sm">
+    <div class="card-body">
+
+      <h4 class="mb-3">รายการสินค้า</h4>
+
+      <table class="table table-bordered align-middle">
+        <thead class="table-light">
+          <tr>
+            <th style="width:120px">รูป</th>
+            <th>สินค้า</th>
+            <th style="width:150px">ราคา</th>
+            <th style="width:220px">จำนวน</th>
+            <th style="width:150px">รวม</th>
+            <th style="width:80px">ลบ</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <!-- รายการ 1 -->
+          <tr>
+            <td class="text-center">
+               <img src="image/pic1.jpg" class="img-fluid">
+            </td>
+            <td>Laptop Gaming</td>
+            <td>฿25,900</td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <button class="btn btn-danger btn-sm">-</button>
+                <input type="text" class="form-control text-center" value="5" style="width:70px">
+                <button class="btn btn-success btn-sm">+</button>
+              </div>
+            </td>
+            <td class="text-danger fw-bold">฿129,500</td>
+            <td class="text-center">
+              <button class="btn btn-dark btn-sm">X</button>
+            </td>
+          </tr>
+
+          <!-- รายการ 2 -->
+          <tr>
+            <td class="text-center">
+              <img src="image/pic1.jpg" class="img-fluid">
+            </td>
+            <td>Smartphone Pro</td>
+            <td>฿18,900</td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <button class="btn btn-danger btn-sm">-</button>
+                <input type="text" class="form-control text-center" value="2" style="width:70px">
+                <button class="btn btn-success btn-sm">+</button>
+              </div>
+            </td>
+            <td class="text-danger fw-bold">฿37,800</td>
+            <td class="text-center">
+              <button class="btn btn-dark btn-sm">X</button>
+            </td>
+          </tr>
+
+          <!-- รายการ 3 -->
+          <tr>
+            <td class="text-center">
+               <img src="image/pic1.jpg" class="img-fluid">
+            </td>
+            <td>Wireless Headphone</td>
+            <td>฿2,900</td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <button class="btn btn-danger btn-sm">-</button>
+                <input type="text" class="form-control text-center" value="3" style="width:70px">
+                <button class="btn btn-success btn-sm">+</button>
+              </div>
+            </td>
+            <td class="text-danger fw-bold">฿8,700</td>
+            <td class="text-center">
+              <button class="btn btn-dark btn-sm">X</button>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <!-- ราคารวม -->
+      <div class="text-end mt-3">
+        <h5>
+          ราคารวม: <span class="text-danger fw-bold">฿176,000</span>
+        </h5>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
